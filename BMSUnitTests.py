@@ -1,3 +1,4 @@
+import BatteryConditionChecks
 if __name__ == '__main__':
             assert(isBatteryOk(25, 70, 0.7) == True)
             assert(isBatteryOk(45, 80, 0.8) == True)
