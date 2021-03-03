@@ -1,4 +1,4 @@
-From BMSThresholdLevels import limits
+from BMSThresholdLevels import limits
 def isBatteryOk(temperature,soc,chargeRate):
     return (isTemperatureOk(temperature) and isSocOk(soc)) and isChargeRateOk(chargeRate)
 
